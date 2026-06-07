@@ -1,16 +1,56 @@
-# React + Vite
+# React Gemini AI Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A ChatGPT-like AI chatbot built with React, Tailwind CSS, and Google Gemini API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🤖 AI-powered responses using Google Gemini API
+- 💬 Chat history saved in sidebar
+- 🔍 Search through previous chats
+- 💾 Persistent storage using localStorage
+- ✨ Markdown formatting for AI responses
+- 📱 Clean, responsive UI built with Tailwind CSS
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Tailwind CSS
+- Google Gemini API
+- Vite
+- localStorage
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repo
+```bash
+   git clone https://github.com/hamidnadeem043/react-gemini-chatbot.git
+```
+
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Create a `.env` file in the root folder
+VITE_GEMINI_API_KEY=My_gemini_api_key_here
+
+4. Run the app
+```bash
+   npm run dev
+```
+
+## Get Your Free Gemini API Key
+
+1. Go to [aistudio.google.com](https://aistudio.google.com)
+2. Sign in with Google
+3. Click "Get API Key" → "Create API Key"
+4. Copy and paste into your `.env` file
+
+## Live Demo
+
+[View Live](https://your-vercel-link-here)
+
+## Author
+
+**Hamid Nadeem**  
+[LinkedIn](https://linkedin.com/in/hamid-nadeem043) · [GitHub](https://github.com/hamidnadeem043) 
