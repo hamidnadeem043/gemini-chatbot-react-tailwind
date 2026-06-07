@@ -48,7 +48,8 @@ VITE_GEMINI_API_KEY=My_gemini_api_key_here
 
 ## Live Demo
 
-[View Live](https://your-vercel-link-here)
+[View Live](https://ai-chatbot-react-tailwind.vercel.app
+)
 
 ## Author
 
